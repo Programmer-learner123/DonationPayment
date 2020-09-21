@@ -16,46 +16,15 @@
 </head>
 
 <body>
-    <section class="fnavbar">
-        <nav class="nav-fixed">
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo">DonateALife</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="list-style">
-                    <li><a href="./index.html">Home</a></li>
-                    <li>
-                        <p class="list-text-style"><i class="material-icons"
-                                style="font-size: 20px; color: white; ">home</i></p>
-                    </li>
-
-                    <li><a href="./index.html">About Us</a></li>
-                    <li>
-                        <p class="list-text-style"><i class="material-icons"
-                                style="font-size: 20px; color: white; ">person</i></p>
-                    </li>
-
-                    <li><a href="./index.html">Reviews</a></li>
-                    <li>
-                        <p class="list-text-style"><i class="material-icons"
-                                style="font-size: 20px; color: white; ">sentiment_very_satisfied</i></p>
-                    </li>
-
-                    <li><a href="#contact">Contact</a></li>
-                    <li>
-                        <p class="list-text-style"><i class="material-icons"
-                                style="font-size: 20px; color: white; ">star</i></p>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./index.html">About Us</a></li>
-            <li><a href="./index.html">Reviews</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </section>
+   <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
     
     <section class="section1">

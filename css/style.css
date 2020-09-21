@@ -27,55 +27,6 @@
 }
 
    
-.sidenav{
-    margin-bottom: 0px;
-    display:inline-block;
-}
-
-.displayStyle{
-    margin-top: 0;
-      margin-right:0;
-}
-.descip{
-    width: 100%;
-    height: auto;
-      margin-right:0;
-}
-   
-   .fcards{
-       width:100%;
-         margin-right:0;
-   }
-   
-  .parallax-container {
-    min-height: 250px;
-    height: auto;
-      margin-right:0;
-    width:100%;
-}
-   
-   .fabout .fservices .freviews{
-       width:100%;
-         margin-right:0;
-   }
-   
-   .footer{
-       width: 100%;
-         margin-right:0;
-   }
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
    
     .thankpageStyle {
         margin-top: 50px;
@@ -279,4 +230,55 @@ h2 {
 .table1 td {
     font-size: 20px;
 
+}
+
+.topnav {
+  overflow: hidden;
+ background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+ background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
